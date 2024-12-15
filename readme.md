@@ -43,26 +43,12 @@ Trending Sentiments is a data exploration application for analyzing hashtags and
 - Open your web browser and navigate to http://localhost:8501
 
 ### Build and Run Docker Container
-
-<<<<<<< HEAD
-
-=======
-
-> > > > > > > 97795e0ce17aa040e87860b0ddf73bde0930bed7
-
 - Download and install Docker from https://www.docker.com
 - Start up Docker on your local machine
 - From within the trending-sentiments directory run: `docker build -t trending-sentiments .`
 - Once the container has built run it with:
-  <<<<<<< HEAD
-  `docker run -p 8501:8501 -e TWITTER_KEY=<YOUR KEY> -e TWITTER_SECRET_KEY=<YOUR SECRET> trending-sentiments`
-
-## 📖 References
-
-- # Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. _Eighth International Conference on Weblogs and Social Media_ (ICWSM-14). Ann Arbor, MI, June 2014.
   `docker run -p 8501:8501 -e TWITTER_KEY=<YOUR KEY> -e TWITTER_SECRET_KEY=<YOUR SECRET> trending-sentiments`
 
 ## 📖 References
 
 - Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. _Eighth International Conference on Weblogs and Social Media_ (ICWSM-14). Ann Arbor, MI, June 2014.
-  > > > > > > > 97795e0ce17aa040e87860b0ddf73bde0930bed7
